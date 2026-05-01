@@ -8,42 +8,22 @@
 </head>
 <body>
 
-<!-- MENUBAR -->
-<div class="menubar" id="menubar">
-  <div class="menu-item" id="menu-arquivo">
-    <button class="menu-trigger" onclick="toggleMenu('menu-arquivo')">Arquivo</button>
-    <div class="menu-dropdown">
-      <div class="menu-option" onclick="closeMenus()">Configurações</div>
-      <div class="menu-sep"></div>
-      <div class="menu-option" onclick="closeMenus()">Sair</div>
-    </div>
-  </div>
-  <div class="menu-item" id="menu-tecnico">
-    <button class="menu-trigger" onclick="toggleMenu('menu-tecnico')">Técnico</button>
-    <div class="menu-dropdown">
-      <div class="menu-option" onclick="openModal('modal-moc')">📋 MOC — Especificações do Sistema</div>
-      <div class="menu-option" onclick="openModal('modal-glossario')">📖 Glossário de TI</div>
-      <div class="menu-sep"></div>
-      <div class="menu-option" onclick="openModal('modal-versoes')">📦 Versões e Dependências</div>
-      <div class="menu-option" onclick="openModal('modal-log')">📋 Log do Sistema</div>
-    </div>
-  </div>
-  <div class="menu-item" id="menu-sobre">
-    <button class="menu-trigger" onclick="toggleMenu('menu-sobre')">Sobre</button>
-    <div class="menu-dropdown">
-      <div class="menu-option" onclick="openModal('modal-sobre')">Sobre o Cyberpunch Skynet</div>
-    </div>
-  </div>
-</div>
-
 <!-- HEADER -->
 <header>
-  <div class="logo">🪱</div>
+  <svg class="logo-svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="16" cy="13" r="9" fill="#1a0a2e" stroke="#c084fc" stroke-width="1.5"/>
+    <circle cx="12" cy="12" r="2.5" fill="#c084fc"/>
+    <circle cx="20" cy="12" r="2.5" fill="#c084fc"/>
+    <rect x="12" y="19" width="2" height="2" rx="0.5" fill="#c084fc"/>
+    <rect x="16" y="19" width="2" height="2" rx="0.5" fill="#c084fc"/>
+    <rect x="20" y="19" width="2" height="2" rx="0.5" fill="#c084fc"/>
+    <path d="M11 22 Q16 26 21 22" stroke="#c084fc" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  </svg>
   <div>
     <div class="logo-text">CYBERPUNCH SKYNET</div>
-    <div class="logo-sub">Exército de Robôs — Cyberpunch</div>
+    <div class="logo-sub">Exercito de Robos — Cyberpunch</div>
   </div>
-  <div class="status-dot">● Sistema ativo</div>
+  <div class="status-dot">&#9679; Sistema ativo</div>
 </header>
 
 <!-- LAYOUT -->
@@ -51,8 +31,15 @@
   <nav class="sidebar" id="sidebar"></nav>
   <main class="detail" id="detail">
     <div class="detail-empty">
-      <div class="big-icon">🪱</div>
-      <p style="font-size:14px;color:#333">Selecione um robô na árvore</p>
+      <svg viewBox="0 0 64 64" width="64" height="64" style="opacity:0.15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="32" cy="26" r="18" fill="#1a0a2e" stroke="#c084fc" stroke-width="2"/>
+        <circle cx="24" cy="24" r="5" fill="#c084fc"/>
+        <circle cx="40" cy="24" r="5" fill="#c084fc"/>
+        <rect x="24" y="38" width="4" height="4" rx="1" fill="#c084fc"/>
+        <rect x="30" y="38" width="4" height="4" rx="1" fill="#c084fc"/>
+        <rect x="36" y="38" width="4" height="4" rx="1" fill="#c084fc"/>
+      </svg>
+      <p style="font-size:14px;color:#333;margin-top:12px">Selecione um robo na arvore</p>
     </div>
   </main>
 </div>
@@ -61,8 +48,8 @@
 <div class="modal-overlay" id="modal-moc">
   <div class="modal">
     <div class="modal-header">
-      <h2>📋 MOC — Especificações Completas do Sistema</h2>
-      <button class="modal-close" onclick="closeModal('modal-moc')">✕</button>
+      <h2>MOC &mdash; Especificacoes Completas do Sistema</h2>
+      <button class="modal-close" onclick="closeModal('modal-moc')">&#10005;</button>
     </div>
     <div class="modal-body" id="modal-moc-body">Carregando...</div>
   </div>
@@ -71,8 +58,8 @@
 <div class="modal-overlay" id="modal-glossario">
   <div class="modal">
     <div class="modal-header">
-      <h2>📖 Glossário de TI</h2>
-      <button class="modal-close" onclick="closeModal('modal-glossario')">✕</button>
+      <h2>Glossario de TI</h2>
+      <button class="modal-close" onclick="closeModal('modal-glossario')">&#10005;</button>
     </div>
     <div class="modal-body" id="modal-glossario-body">Carregando...</div>
   </div>
@@ -81,8 +68,8 @@
 <div class="modal-overlay" id="modal-versoes">
   <div class="modal">
     <div class="modal-header">
-      <h2>📦 Versões e Dependências</h2>
-      <button class="modal-close" onclick="closeModal('modal-versoes')">✕</button>
+      <h2>Versoes e Dependencias</h2>
+      <button class="modal-close" onclick="closeModal('modal-versoes')">&#10005;</button>
     </div>
     <div class="modal-body" id="modal-versoes-body">Carregando...</div>
   </div>
@@ -91,8 +78,8 @@
 <div class="modal-overlay" id="modal-log">
   <div class="modal">
     <div class="modal-header">
-      <h2>📋 Log do Sistema</h2>
-      <button class="modal-close" onclick="closeModal('modal-log')">✕</button>
+      <h2>Log do Sistema</h2>
+      <button class="modal-close" onclick="closeModal('modal-log')">&#10005;</button>
     </div>
     <div class="modal-body" id="modal-log-body"></div>
   </div>
@@ -102,17 +89,25 @@
   <div class="modal">
     <div class="modal-header">
       <h2>Sobre</h2>
-      <button class="modal-close" onclick="closeModal('modal-sobre')">✕</button>
+      <button class="modal-close" onclick="closeModal('modal-sobre')">&#10005;</button>
     </div>
     <div class="modal-body">
       <div class="sobre-box">
-        <div class="sobre-worm">🪱</div>
+        <svg viewBox="0 0 80 80" width="80" height="80" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:16px">
+          <circle cx="40" cy="32" r="22" fill="#1a0a2e" stroke="#c084fc" stroke-width="2"/>
+          <circle cx="30" cy="29" r="6" fill="#c084fc"/>
+          <circle cx="50" cy="29" r="6" fill="#c084fc"/>
+          <rect x="30" y="47" width="5" height="5" rx="1" fill="#c084fc"/>
+          <rect x="37" y="47" width="5" height="5" rx="1" fill="#c084fc"/>
+          <rect x="44" y="47" width="5" height="5" rx="1" fill="#c084fc"/>
+          <path d="M28 56 Q40 63 52 56" stroke="#c084fc" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        </svg>
         <div class="sobre-name">CYBERPUNCH SKYNET</div>
-        <div class="sobre-version">Versão 1.0 Alpha 1</div>
+        <div class="sobre-version">Versao 1.0 Alpha 1</div>
         <div class="sobre-credits">
           <strong>Autor:</strong> Dennis de Almeida Lopes<br>
           Projeto: Cyberpunch<br>
-          Exército de Robôs — Automação com IA<br><br>
+          Exercito de Robos &mdash; Automacao com IA<br><br>
           <span style="color:#333;font-size:12px">Desenvolvido com Claude + Electron</span>
         </div>
       </div>

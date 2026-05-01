@@ -248,10 +248,10 @@ function renderDetail(node, activeTab) {
         ${node.path ? `<div class="d-path">📁 ${node.path}</div>` : ''}
       </div>
       <div class="eng-buttons">
-        <button class="eng-btn eng-btn-func"  onclick="switchTab('func','${node.id}')">⚡ Função</button>
-        <button class="eng-btn eng-btn-param" onclick="switchTab('param','${node.id}')">⚙ Parâmetros</button>
-        <button class="eng-btn eng-btn-mcp"   onclick="switchTab('mcp','${node.id}')">🔌 MCPs</button>
-        <button class="eng-btn eng-btn-status" onclick="switchTab('status','${node.id}')">📊 Status</button>
+        <button class="eng-btn eng-btn-func"  onclick="switchTab('func')">⚡ Função</button>
+        <button class="eng-btn eng-btn-param" onclick="switchTab('param')">⚙ Parâmetros</button>
+        <button class="eng-btn eng-btn-mcp"   onclick="switchTab('mcp')">🔌 MCPs</button>
+        <button class="eng-btn eng-btn-status" onclick="switchTab('status')">📊 Status</button>
       </div>
     </div>
 
@@ -283,10 +283,10 @@ function renderDetail(node, activeTab) {
     </div>
   `;
 
-  switchTab(activeTab || 'func', node.id);
+  switchTab(activeTab || 'func');
 }
 
-function switchTab(tab, nodeId) {
+function switchTab(tab) {
   ['func','param','mcp','status'].forEach(t => {
     const sec = document.getElementById('sec-' + t);
     if (sec) sec.classList.toggle('active', t === tab);
