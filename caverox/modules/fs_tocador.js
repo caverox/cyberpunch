@@ -4,8 +4,8 @@ const path = require('path');
 const os = require('os');
 
 const TOKEN_FILE = path.join(os.homedir(), '.spotify-mcp', 'tokens.json');
-const CLIENT_ID = '0d0205ac0bd043898eef1887e7f63350';
-const CLIENT_SECRET = '073e4d2efc5f4f24a609098def3ba335';
+const CLIENT_ID = 'SEU_SPOTIFY_CLIENT_ID';
+const CLIENT_SECRET = 'SEU_SPOTIFY_CLIENT_SECRET';
 const PLAYLIST_REVOLUTION = 'spotify:playlist:1kHYofTe95gaoVzBbJo2zU';
 
 function getTokens() {
