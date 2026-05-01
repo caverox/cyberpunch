@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "8d79b3e8faa35b64",
+    "type": "split",
+    "children": [
+      {
+        "id": "f30db7e13b919be1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e040efb1c3253766",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bem-vindo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bem-vindo"
+            }
+          },
+          {
+            "id": "26000fbb0107dec1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conversa claude 28_04_2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conversa claude 28_04_2026"
+            }
+          },
+          {
+            "id": "8f1d8a39b3c7e1a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conversa claude atual.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conversa claude atual"
+            }
+          },
+          {
+            "id": "e500ce047edd7b4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC_Cyberpunch_Atual.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC_Cyberpunch_Atual"
+            }
+          },
+          {
+            "id": "2af987c1efcaeee9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC_Cyberpunch_30_04_2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC_Cyberpunch_30_04_2026"
+            }
+          },
+          {
+            "id": "37bf5b6208adfd73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC_Cyberpunch_30_04_2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC_Cyberpunch_30_04_2026"
+            }
+          },
+          {
+            "id": "984ae3816e6d077d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "MOC_Cyberpunch_Atual.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC_Cyberpunch_Atual"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "85984dfa292ad9c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66617452a8ed59ee",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31c8cd8af7a990a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "900bf167f6eea02f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46ea52c4d3cc9936",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "fc2bcc9d0ab2c7e6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "d0c10f25f886b1e1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3afe3386062bf7d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b9008fa353d08ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f07f8e1f6cb25e02",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "conversa claude atual.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para conversa claude atual"
+            }
+          },
+          {
+            "id": "4de4a35a3afab6e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "conversa claude atual.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para conversa claude atual"
+            }
+          },
+          {
+            "id": "a4d50a6041cc9312",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "58ea0d835873764d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "f185322b7e759f76",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "conversa claude atual.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de conversa claude atual"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "984ae3816e6d077d",
+  "lastOpenFiles": [
+    "MPC_Cyberpunch_01_05_2026.md",
+    "MOC_Cyberpunch_30_04_2026.md",
+    "Core Técnico Bot_Spotify.md",
+    "MOC_Cyberpunch_Atual.md",
+    "conversa claude atual.md",
+    "conversa claude 28_04_2026.md",
+    "Bem-vindo.md"
+  ]
+}
