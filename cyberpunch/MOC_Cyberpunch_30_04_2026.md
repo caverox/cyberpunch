@@ -61,15 +61,15 @@
 
 ### Spotify
 
-- Client ID: `0d0205ac0bd043898eef1887e7f63350`
-- Client Secret: `073e4d2efc5f4f24a609098def3ba335`
+- Client ID: `SEU_SPOTIFY_CLIENT_ID`
+- Client Secret: `SEU_SPOTIFY_CLIENT_SECRET`
 - Redirect URI: `http://127.0.0.1:3000/callback`
 
 ### Google Cloud OAuth
 
 - Projeto: `able-brace-494903-v5`
-- Client ID: `268501684060-ah74s0gmcqnla8frr7uavbnk1oq0pq77.apps.googleusercontent.com`
-- Client Secret: `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`
+- Client ID: `SEU_GOOGLE_CLIENT_ID`
+- Client Secret: `SEU_GOOGLE_CLIENT_SECRET`
 - Redirect URI: `http://localhost`
 - JSON salvo em: `C:\Claude AI\Cyberpunch\credentials\google_oauth.json`
 - APIs ativadas: Drive, Sheets, Calendar, Gmail
@@ -97,8 +97,8 @@
       "command": "C:\\Program Files\\nodejs\\npx.cmd",
       "args": ["-y", "@darrenjaws/spotify-mcp"],
       "env": {
-        "SPOTIFY_CLIENT_ID": "0d0205ac0bd043898eef1887e7f63350",
-        "SPOTIFY_CLIENT_SECRET": "073e4d2efc5f4f24a609098def3ba335",
+        "SPOTIFY_CLIENT_ID": "SEU_SPOTIFY_CLIENT_ID",
+        "SPOTIFY_CLIENT_SECRET": "SEU_SPOTIFY_CLIENT_SECRET",
         "SPOTIFY_REDIRECT_URI": "http://127.0.0.1:3000/callback"
       }
     },
@@ -106,8 +106,8 @@
       "command": "C:\\Program Files\\nodejs\\npx.cmd",
       "args": ["-y", "@modelcontextprotocol/server-gdrive"],
       "env": {
-        "GDRIVE_CLIENT_ID": "268501684060-ah74s0gmcqnla8frr7uavbnk1oq0pq77.apps.googleusercontent.com",
-        "GDRIVE_CLIENT_SECRET": "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",
+        "GDRIVE_CLIENT_ID": "SEU_GOOGLE_CLIENT_ID",
+        "GDRIVE_CLIENT_SECRET": "SEU_GOOGLE_CLIENT_SECRET",
         "GDRIVE_REDIRECT_URI": "http://localhost"
       }
     },
@@ -115,8 +115,8 @@
       "command": "C:\\Program Files\\nodejs\\npx.cmd",
       "args": ["-y", "@modelcontextprotocol/server-gsheets"],
       "env": {
-        "GSHEETS_CLIENT_ID": "268501684060-ah74s0gmcqnla8frr7uavbnk1oq0pq77.apps.googleusercontent.com",
-        "GSHEETS_CLIENT_SECRET": "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",
+        "GSHEETS_CLIENT_ID": "SEU_GOOGLE_CLIENT_ID",
+        "GSHEETS_CLIENT_SECRET": "SEU_GOOGLE_CLIENT_SECRET",
         "GSHEETS_REDIRECT_URI": "http://localhost"
       }
     },
@@ -124,8 +124,8 @@
       "command": "C:\\Program Files\\nodejs\\npx.cmd",
       "args": ["-y", "@modelcontextprotocol/server-gcalendar"],
       "env": {
-        "GCALENDAR_CLIENT_ID": "268501684060-ah74s0gmcqnla8frr7uavbnk1oq0pq77.apps.googleusercontent.com",
-        "GCALENDAR_CLIENT_SECRET": "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",
+        "GCALENDAR_CLIENT_ID": "SEU_GOOGLE_CLIENT_ID",
+        "GCALENDAR_CLIENT_SECRET": "SEU_GOOGLE_CLIENT_SECRET",
         "GCALENDAR_REDIRECT_URI": "http://localhost"
       }
     },
@@ -133,8 +133,8 @@
       "command": "C:\\Program Files\\nodejs\\npx.cmd",
       "args": ["-y", "@modelcontextprotocol/server-gmail"],
       "env": {
-        "GMAIL_CLIENT_ID": "268501684060-ah74s0gmcqnla8frr7uavbnk1oq0pq77.apps.googleusercontent.com",
-        "GMAIL_CLIENT_SECRET": "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",
+        "GMAIL_CLIENT_ID": "SEU_GOOGLE_CLIENT_ID",
+        "GMAIL_CLIENT_SECRET": "SEU_GOOGLE_CLIENT_SECRET",
         "GMAIL_REDIRECT_URI": "http://localhost"
       }
     }
