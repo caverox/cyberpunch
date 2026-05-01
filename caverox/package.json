@@ -1,0 +1,15 @@
+{
+  "name": "caverox",
+  "version": "1.0.0",
+  "description": "Painel central do Exército de Robôs — Cyberpunch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Cyberpunch",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.2.1"
+  }
+}
